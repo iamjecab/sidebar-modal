@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 
 import GlobalStyles from "./Components/GlobalStyles/";
+import Modal from "./Components/Modal";
+
 import SideBar from "./Components/SideBar";
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
             <GlobalStyles />
 
             <SideBar />
+            <Modal />
         </>
     );
 }
